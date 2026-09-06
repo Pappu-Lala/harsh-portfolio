@@ -1,5 +1,7 @@
 # Harsh Yadav - Personal Portfolio
 
+🌐 **Live Website**: [https://pappu-lala.github.io/harsh-portfolio/](https://pappu-lala.github.io/harsh-portfolio/)
+
 A modern, responsive, developer-focused personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**.
 
 ---
