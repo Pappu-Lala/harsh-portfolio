@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Terminal, Github, Linkedin, Mail } from 'lucide-react';
+import { Menu, X, Terminal, Github, Linkedin, Mail, FileText } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 export default function Navbar() {
@@ -79,8 +79,17 @@ export default function Navbar() {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
+            href={`${import.meta.env.BASE_URL}Harsh_Yadav_CV.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-2 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 hover:bg-emerald-500/20 hover:border-emerald-400 text-xs font-semibold transition-all"
+          >
+            <FileText className="w-3.5 h-3.5" />
+            <span>CV</span>
+          </a>
+          <a
             href="#contact"
-            className="ml-2 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 hover:bg-cyan-500/20 hover:border-cyan-400 text-sm font-medium transition-all"
+            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 hover:bg-cyan-500/20 hover:border-cyan-400 text-sm font-medium transition-all"
           >
             <Mail className="w-4 h-4" />
             <span>Get in Touch</span>
@@ -131,13 +140,25 @@ export default function Navbar() {
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
-            <a
-              href="#contact"
-              onClick={() => setMobileMenuOpen(false)}
-              className="px-4 py-2 rounded-lg bg-cyan-500 text-slate-950 font-semibold text-sm hover:bg-cyan-400 transition-colors"
-            >
-              Contact Me
-            </a>
+            <div className="flex items-center gap-2">
+              <a
+                href={`${import.meta.env.BASE_URL}Harsh_Yadav_CV.pdf`}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+                className="px-3.5 py-2 rounded-lg bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-semibold text-sm flex items-center gap-1.5"
+              >
+                <FileText className="w-4 h-4" />
+                <span>CV</span>
+              </a>
+              <a
+                href="#contact"
+                onClick={() => setMobileMenuOpen(false)}
+                className="px-4 py-2 rounded-lg bg-cyan-500 text-slate-950 font-semibold text-sm hover:bg-cyan-400 transition-colors"
+              >
+                Contact Me
+              </a>
+            </div>
           </div>
         </div>
       )}

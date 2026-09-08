@@ -5,8 +5,10 @@ export const personalInfo = {
   institution: "Lovely Professional University",
   location: "India",
   email: "harshyadav26082007@gmail.com",
+  phone: "+91 9315962886",
   github: "https://github.com/Pappu-Lala",
   linkedin: "https://www.linkedin.com/in/harsh-yadav-254305294/",
+  cvUrl: "Harsh_Yadav_CV.pdf",
   bio: "Aspiring Computer Science & Engineering student at Lovely Professional University with a strong foundation in C++, Python, and IoT systems. Passionate about building robust software, microcontroller automation, and problem-solving through technology.",
   tagline: "Building software solutions from microcontroller IoT systems to modern web applications.",
 };
@@ -21,6 +23,12 @@ export const skillsData = {
     { name: "Git", category: "Version Control", highlight: "Code Tracking & Collaboration" },
     { name: "GitHub", category: "Platform", highlight: "Repositories & Open Source" },
     { name: "VS Code", category: "Development Environment", highlight: "Primary Code Editor" },
+  ],
+  softSkills: [
+    { name: "Problem-Solving Skills", category: "Core Strength", highlight: "Analytical thinking & algorithms" },
+    { name: "Leadership", category: "Collaboration", highlight: "Team coordination & hackathon initiatives" },
+    { name: "Adaptability", category: "Agility", highlight: "Fast learner across hardware & software" },
+    { name: "Self-Confident", category: "Mindset", highlight: "Decisive execution & project ownership" },
   ]
 };
 
@@ -116,7 +124,7 @@ export const educationData = [
   {
     institution: "Lovely Professional University",
     degree: "B.Tech, Computer Science and Engineering",
-    score: "CGPA: 8.14",
+    score: "CGPA: 8.51",
     status: "Current Degree",
     highlight: "Focusing on core computer science, systems programming, and algorithms."
   },

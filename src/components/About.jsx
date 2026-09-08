@@ -24,7 +24,7 @@ export default function About() {
             <p>
               I am a <strong className="text-cyan-400 font-medium">Computer Science and Engineering</strong> student 
               at <strong className="text-white font-medium">Lovely Professional University</strong> with an academic CGPA of 
-              <span className="text-amber-400 font-semibold"> 8.14</span>.
+              <span className="text-amber-400 font-semibold"> 8.51</span>.
             </p>
             <p>
               My journey in computing spans from low-level systems programming in 
@@ -84,7 +84,7 @@ export default function About() {
               </div>
               <div>
                 <p className="text-xs text-slate-400 uppercase tracking-wider font-semibold">Academic Merit</p>
-                <h3 className="text-2xl font-bold text-amber-400">8.14 <span className="text-xs font-normal text-slate-400">CGPA</span></h3>
+                <h3 className="text-2xl font-bold text-amber-400">8.51 <span className="text-xs font-normal text-slate-400">CGPA</span></h3>
               </div>
             </div>
             <p className="mt-2 text-xs text-slate-400">
